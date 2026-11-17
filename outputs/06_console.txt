@@ -1,0 +1,55 @@
+Balls: 198,637
+
+Ball-outcome frequencies used for LI (by innings & phase):
+oc                     0      1      2      4      6      W      X
+innings phase                                                     
+1       death      0.191  0.370  0.089  0.116  0.091  0.080  0.063
+        middle     0.255  0.450  0.067  0.089  0.059  0.045  0.034
+        powerplay  0.388  0.268  0.052  0.158  0.051  0.043  0.039
+2       death      0.225  0.364  0.075  0.113  0.081  0.083  0.061
+        middle     0.258  0.439  0.066  0.094  0.059  0.049  0.036
+        powerplay  0.382  0.266  0.049  0.160  0.056  0.046  0.040
+
+LI quantiles: p10=0.09, p25=0.35, p50=0.76, p75=1.32, p90=2.10, p99=4.70
+Share of balls with LI >= 1.25: 27.1%
+Share of balls with LI >= 1.5: 20.0%
+Share of balls with LI >= 2.0: 11.1%
+
+Mean Leverage Index by classic 'pressure' situation:
+                                   situation  balls  mean_LI  share_pressure_LI>=1.5
+ Batting collapse (3+ wkts in last 24 balls)  17264    0.915                   0.168
+                 Difficult chase (RRR >= 10)  42972    1.037                   0.250
+Tight finish (2nd inn, <=36 balls, RRR 7-13)   7634    2.810                   0.709
+                    Death overs (16-20), any  44104    1.244                   0.268
+                              Knockout match   7323    1.075                   0.227
+Comfortable chase (RRR < 6, 7+ wkts in hand)   8616    0.261                   0.020
+           1st inn powerplay, no wicket down  16126    0.909                   0.081
+                                   ALL BALLS 198637    1.000                   0.200
+
+How ball outcomes change with leverage (legal balls):
+   band  balls  dot_pct  boundary_pct  wicket_pct  run_rate
+   <0.5  64507    0.292         0.189       0.059     8.626
+  0.5-1  55015    0.311         0.183       0.053     8.342
+  1-1.5  32078    0.304         0.186       0.051     8.461
+1.5-2.5  25666    0.289         0.189       0.055     8.616
+   >2.5  12360    0.279         0.189       0.069     8.643
+
+Top 15 highest-leverage balls (sanity check - do these look like famous finishes?):
+match_date                   home_team                   away_team  innings  overid  over_ball_num  score_before  wkts_left  runs_needed  balls_left            striker_name         bowler_name  wp_before    li
+2023-04-30         Chennai Super Kings                Punjab Kings        2      20              6         198.0        4.0          3.0         1.0           Sikandar Raza Matheesha Pathirana       0.48 26.65
+2026-09-22                       Japan                       India        2       5              7          29.0        7.0          4.0         1.0       Alexander Patmore          Axar Patel       0.06 24.34
+2024-07-30                   Sri Lanka                       India        2      20              6         135.0        2.0          3.0         1.0 Chamindu Wickramasinghe    Suryakumar Yadav       0.05 24.25
+2024-04-21       Kolkata Knight Riders Royal Challengers Bengaluru        2      20              6         220.0        1.0          3.0         1.0         Lockie Ferguson      Mitchell Starc       0.07 24.17
+2025-08-02                 West Indies                    Pakistan        2      20              7         131.0        2.0          3.0         1.0            Jason Holder      Shaheen Afridi       0.09 24.14
+2022-05-18       Kolkata Knight Riders        Lucknow Super Giants        2      20              6         208.0        3.0          3.0         1.0             Umesh Yadav      Marcus Stoinis       0.17 24.12
+2025-05-04       Kolkata Knight Riders            Rajasthan Royals        2      20              6         204.0        3.0          3.0         1.0           Shubham Dubey       Vaibhav Arora       0.17 24.12
+2025-09-26                       India                   Sri Lanka        2      20              6         200.0        5.0          3.0         1.0           Dasun Shanaka        Harshit Rana       0.13 24.00
+2024-05-19                 Netherlands                     Ireland        2      20              7         148.0        2.0          3.0         1.0             Tim Pringle          Mark Adair       0.11 23.94
+2025-11-23                Bangladesh A                  Pakistan A        2      20              6         124.0        1.0          2.0         1.0           Abdul Saqlain       Ahmed Daniyal       0.03 23.47
+2025-04-19            Rajasthan Royals        Lucknow Super Giants        2      20              6         177.0        5.0          4.0         1.0           Shubham Dubey          Avesh Khan       0.19 23.06
+2025-05-03 Royal Challengers Bengaluru         Chennai Super Kings        2      20              7         210.0        5.0          4.0         1.0             Shivam Dube          Yash Dayal       0.19 23.06
+2023-12-07                    Zimbabwe                     Ireland        2      20              6         144.0        1.0          2.0         1.0     Blessing Muzarabani      Barry McCarthy       0.05 23.06
+2025-11-21                Bangladesh A                     India A        2      20              6         191.0        4.0          4.0         1.0             Harsh Dubey       Rakibul Hasan       0.09 22.80
+2023-05-07            Rajasthan Royals         Sunrisers Hyderabad        2      20              7         211.0        4.0          4.0         1.0             Abdul Samad      Sandeep Sharma       0.15 22.68
+
+Done. Table ball_value written.

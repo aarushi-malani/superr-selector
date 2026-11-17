@@ -1,0 +1,23 @@
+# Competition data: not redistributed. Place the six CSVs in data/raw/ to reproduce.
+data/raw/
+*.csv.gz
+
+# Generated / large files
+superr.duckdb
+superr.duckdb.wal
+models/
+
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Original competition documents
+*.pdf
+*.docx
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,29 @@
+role,check,top10_overlap,rank_corr
+bat,v1 symmetric ball-level LI>=1.5,7,0.961
+bat,Behind-gate at 40%,8,0.954
+bat,Behind-gate at 60%,8,0.968
+bat,LI threshold 1.25,10,0.993
+bat,LI threshold 2.0,6,0.904
+bat,Full members + IPL only,10,0.993
+bat,IPL only,7,0.85
+bat,LI rescaled within innings,8,0.937
+bat,Knockout leverage x1.5,10,0.999
+bat,Wicket valued at 2x,8,0.908
+bat,Wicket valued at 0.5x,7,0.946
+bat,Rank by lower 80% bound,8,
+bat,Raw pressure-only (no shrinkage),4,
+bat,Realised pressure WPA total,2,
+bowl,v1 symmetric ball-level LI>=1.5,9,0.997
+bowl,Behind-gate at 40%,8,0.992
+bowl,Behind-gate at 60%,10,1.0
+bowl,LI threshold 1.25,10,1.0
+bowl,LI threshold 2.0,6,0.999
+bowl,Full members + IPL only,8,0.993
+bowl,IPL only,6,0.85
+bowl,LI rescaled within innings,10,1.0
+bowl,Knockout leverage x1.5,10,1.0
+bowl,Wicket valued at 2x,7,0.973
+bowl,Wicket valued at 0.5x,8,0.991
+bowl,Rank by lower 80% bound,8,
+bowl,Raw pressure-only (no shrinkage),1,
+bowl,Realised pressure WPA total,3,

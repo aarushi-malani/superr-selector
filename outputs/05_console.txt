@@ -1,0 +1,21 @@
+Broken matches excluded: 2
+Model rows: 198,637 balls from 840 decided matches
+Innings 1 TEST (41,797 balls): log-loss 0.650 (no-skill 0.696) | Brier 0.221 (no-skill 0.252)
+Innings 2 TEST (37,831 balls): log-loss 0.389 (no-skill 0.697) | Brier 0.121 (no-skill 0.252)
+
+Sanity check - 2nd innings, 6 wickets left, 30 balls left, equal teams:
+ runs_needed  balls_left  wkts_left    wp
+          20          30          6 0.977
+          40          30          6 0.837
+          60          30          6 0.481
+          80          30          6 0.052
+
+Expected further runs from 'resources' (balls left x wickets left):
+wkts_left      2      4      7      10
+balls_left                            
+120         120.1  123.1  129.9  176.9
+60           64.7   70.3   93.3  104.9
+30           31.8   39.8   55.5   59.0
+12           13.0   20.3   26.5   30.9
+
+Done. Calibration plot -> outputs/figures/wp_calibration.png

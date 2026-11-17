@@ -1,0 +1,105 @@
+
+================ BATTERS ================
+Wicket value in pressure situations: c = 5.3 runs
+  rae: k_overall = 352 balls, k_pressure_deviation = inf (no detectable pressure-specific signal)
+  wae: k_overall = 624 balls, k_pressure_deviation = 557 balls
+Eligible: 96 players (>= 60 pressure balls, >= 6 matches)
+ rank          player_name  pressure_balls    PS  PS_p10  PS_p90  P_top10_pct  PS_overall  clutch_delta  pressure_innings  pressure_failures  consistency_pct  SR_all  SR_pressure  dismissal_pct_pressure
+    1 Vaibhav Sooryavanshi            78.0 35.98   24.29   47.25         97.8       33.73          2.25               8.0                2.0            75.00  219.72       229.49                    1.28
+    2            Tim David           219.0 28.60   19.55   36.19         94.2       26.52          2.09              22.0                9.0            59.09  177.65       204.57                    5.02
+    3      Abhishek Sharma           167.0 24.83   16.18   32.11         88.2       28.50         -3.67              29.0               16.0            44.83  186.29       163.25                    8.43
+    4     Suryakumar Yadav           208.0 23.55   16.95   29.33         91.0       24.32         -0.77              26.0               12.0            53.85  166.46       154.07                    5.74
+    5        Andre Russell           107.0 22.99   13.16   33.37         77.2       20.40          2.59              13.0                7.0            46.15  170.73       180.37                    4.67
+    6            Phil Salt           129.0 20.33   13.35   25.86         76.8       18.65          1.68              16.0                5.0            68.75  169.55       178.29                    3.10
+    7     Heinrich Klaasen           134.0 18.09   12.08   24.26         60.2       17.61          0.48              20.0                5.0            75.00  166.76       179.85                    4.48
+    8          Rinku Singh           155.0 14.31    7.43   20.68         30.2       13.19          1.12              20.0               10.0            50.00  152.66       135.90                    3.85
+    9       Shashank Singh            70.0 14.13    3.81   22.70         32.2       11.17          2.96              11.0                4.0            63.64  161.61       170.00                    1.43
+   10     Romario Shepherd            90.0 13.59    3.80   22.32         31.8       13.99         -0.39              18.0                8.0            55.56  154.15       159.78                    8.70
+   11      Nicholas Pooran           197.0 13.32    5.11   20.30         24.6       14.34         -1.03              24.0               14.0            41.67  158.58       152.28                    6.09
+   12      Reeza Hendricks           105.0 13.05    4.95   20.80         22.4       10.28          2.77               9.0                2.0            77.78  146.59       185.71                    1.90
+   13          Rashid Khan            94.0 11.91    0.54   22.20         25.0        9.87          2.04              13.0                6.0            53.85  156.02       172.34                    6.38
+   14         Shreyas Iyer           167.0 11.65    4.32   19.44         17.2        9.68          1.97              19.0                7.0            63.16  153.47       180.24                    2.99
+   15        Rajat Patidar            67.0 11.01    1.70   19.51         20.0       14.93         -3.92              13.0                7.0            46.15  167.86       188.06                   11.94
+   16 Namboori Tilak Varma           249.0 10.87    5.33   16.54          9.6       10.02          0.85              29.0               13.0            55.17  144.25       155.65                    4.44
+   17          Harry Brook            75.0 10.79    1.10   20.16         20.6       12.35         -1.57              12.0                8.0            33.33  164.11       128.00                    8.00
+   18       Dinesh Karthik            93.0 10.73   -0.44   19.10         17.8        9.50          1.23              14.0                8.0            42.86  167.29       166.67                    5.38
+   19       Mitchell Marsh           187.0 10.41    3.02   16.86          9.2       10.21          0.20              21.0               13.0            38.10  157.43       127.96                    4.84
+   20        Rilee Rossouw            69.0  9.94    0.90   17.42         12.2       11.31         -1.37               8.0                4.0            50.00  172.42       142.03                    7.25
+Split-half reliability (odd vs even matches):
+  rae_overall            r =  0.72  (n = 34)
+  wae_overall            r =  0.45  (n = 34)
+  rae_p_raw              r =  0.43  (n = 34)
+  wae_p_raw              r =  0.36  (n = 34)
+  PS                     r =  0.58  (n = 34)
+  PS_raw_pressure_only   r =  0.45  (n = 34)
+  rae: pressure-only r = 0.43 vs 0.20 predicted if it were the SAME skill measured on 10% of the balls
+  wae: pressure-only r = 0.36 vs 0.08 predicted if it were the SAME skill measured on 10% of the balls
+Robustness of the top 10:
+  v1 symmetric ball-level LI>=1.5: top-10 overlap 7/10, rank correlation 0.96
+  Behind-gate at 40%          : top-10 overlap 8/10, rank correlation 0.95
+  Behind-gate at 60%          : top-10 overlap 8/10, rank correlation 0.97
+  LI threshold 1.25           : top-10 overlap 10/10, rank correlation 0.99
+  LI threshold 2.0            : top-10 overlap 6/10, rank correlation 0.90
+  Full members + IPL only     : top-10 overlap 10/10, rank correlation 0.99
+  IPL only                    : top-10 overlap 7/10, rank correlation 0.85
+  LI rescaled within innings  : top-10 overlap 8/10, rank correlation 0.94
+  Knockout leverage x1.5      : top-10 overlap 10/10, rank correlation 1.00
+  Wicket valued at 2x         : top-10 overlap 8/10, rank correlation 0.91
+  Wicket valued at 0.5x       : top-10 overlap 7/10, rank correlation 0.95
+  Rank by lower 80% bound     : top-10 overlap 8/10
+  Raw pressure-only (no shrinkage): top-10 overlap 4/10
+  Realised pressure WPA total : top-10 overlap 2/10
+
+================ BOWLERS ================
+Wicket value in pressure situations: c = 7.6 runs
+  rae: k_overall = 480 balls, k_pressure_deviation = inf (no detectable pressure-specific signal)
+  wae: k_overall = 2,617 balls, k_pressure_deviation = inf (no detectable pressure-specific signal)
+Eligible: 109 players (>= 60 pressure balls, >= 6 matches)
+ rank         player_name  pressure_balls    PS  PS_p10  PS_p90  P_top10_pct  PS_overall  clutch_delta  pressure_innings  pressure_failures  consistency_pct  econ_all  econ_pressure  wkts_pressure
+    1      Jasprit Bumrah           159.0 22.35   17.05   28.41         99.2       22.35           0.0              16.0                8.0            50.00      7.22           7.43            6.0
+    2        Sunil Narine           120.0 20.32   15.59   25.20         98.2       20.32           0.0              16.0                4.0            75.00      6.80           6.10            4.0
+    3 Matheesha Pathirana           130.0 14.02    7.66   19.22         65.4       14.02           0.0              15.0               10.0            33.33      8.77           9.05            4.0
+    4         Rashid Khan           243.0 13.73    8.52   18.73         71.6       13.73           0.0              26.0                9.0            65.38      7.42           6.68           15.0
+    5    Mujeeb Ur Rahman           121.0 12.10    6.88   17.09         54.2       12.10           0.0              13.0                4.0            69.23      7.02           6.20            6.0
+    6  Varun Chakravarthy           149.0 11.87    7.04   16.65         51.6       11.87           0.0              19.0                6.0            68.42      7.98           7.83           10.0
+    7   Mustafizur Rahman           119.0 11.21    6.07   16.51         48.4       11.21           0.0              15.0                9.0            40.00      7.79           8.84            7.0
+    8 Blessing Muzarabani           102.0 10.96    4.53   16.97         42.0       10.96           0.0              11.0                4.0            63.64      7.54           7.78            7.0
+    9       Kuldeep Yadav           200.0 10.82    5.44   15.67         41.0       10.82           0.0              20.0                9.0            55.00      7.98           7.48           11.0
+   10         Abrar Ahmed            78.0 10.79    4.49   16.62         42.6       10.79           0.0               7.0                4.0            42.86      6.68           6.31            1.0
+   11          Noor Ahmad           169.0 10.55    5.18   16.59         41.2       10.55           0.0              15.0                7.0            53.33      7.96           9.30           10.0
+   12        Nathan Ellis            83.0 10.13    4.98   15.18         35.2       10.13           0.0              10.0                4.0            60.00      8.16           7.69            6.0
+   13       Krunal Pandya           162.0  9.52    3.70   15.26         33.6        9.52           0.0              19.0                9.0            52.63      7.78           6.15            8.0
+   14    Mitchell Santner           173.0  9.28    4.69   14.17         30.0        9.28           0.0              20.0                9.0            55.00      7.46           7.17            8.0
+   15      Josh Hazlewood           133.0  9.14    3.02   14.80         30.8        9.14           0.0              18.0                8.0            55.56      8.24           7.86            9.0
+   16   Bhuvneshwar Kumar           250.0  7.94    3.51   13.28         18.8        7.94           0.0              28.0               14.0            50.00      8.26           7.15            9.0
+   17           Mark Wood            73.0  7.14    0.55   12.92         16.0        7.14           0.0               8.0                3.0            62.50      8.19           9.09            7.0
+   18         Mohsin Khan            91.0  6.92    0.53   12.76         14.6        6.92          -0.0              12.0                8.0            33.33      8.38           9.53            3.0
+   19  Maheesh Theekshana           201.0  6.77    3.18   10.67          5.8        6.77           0.0              22.0               10.0            54.55      7.74           7.45            7.0
+   20      Mohammad Nawaz           111.0  6.76    0.79   12.79         13.6        6.76           0.0              13.0                4.0            69.23      7.13           5.95            6.0
+Split-half reliability (odd vs even matches):
+  rae_overall            r =  0.54  (n = 47)
+  wae_overall            r =  0.38  (n = 47)
+  rae_p_raw              r =  0.15  (n = 47)
+  wae_p_raw              r =  0.13  (n = 47)
+  PS                     r =  0.40  (n = 47)
+  PS_raw_pressure_only   r =  0.13  (n = 47)
+  clutch_delta           r =  0.12  (n = 47)
+  rae: pressure-only r = 0.15 vs 0.11 predicted if it were the SAME skill measured on 10% of the balls
+  wae: pressure-only r = 0.13 vs 0.06 predicted if it were the SAME skill measured on 10% of the balls
+Robustness of the top 10:
+  v1 symmetric ball-level LI>=1.5: top-10 overlap 9/10, rank correlation 1.00
+  Behind-gate at 40%          : top-10 overlap 8/10, rank correlation 0.99
+  Behind-gate at 60%          : top-10 overlap 10/10, rank correlation 1.00
+  LI threshold 1.25           : top-10 overlap 10/10, rank correlation 1.00
+  LI threshold 2.0            : top-10 overlap 6/10, rank correlation 1.00
+  Full members + IPL only     : top-10 overlap 8/10, rank correlation 0.99
+  IPL only                    : top-10 overlap 6/10, rank correlation 0.85
+  LI rescaled within innings  : top-10 overlap 10/10, rank correlation 1.00
+  Knockout leverage x1.5      : top-10 overlap 10/10, rank correlation 1.00
+  Wicket valued at 2x         : top-10 overlap 7/10, rank correlation 0.97
+  Wicket valued at 0.5x       : top-10 overlap 8/10, rank correlation 0.99
+  Rank by lower 80% bound     : top-10 overlap 8/10
+  Raw pressure-only (no shrinkage): top-10 overlap 1/10
+  Realised pressure WPA total : top-10 overlap 3/10
+
+Done.

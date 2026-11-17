@@ -1,0 +1,13 @@
+competitions                             141 rows
+matches                                  883 rows
+teams                                    353 rows
+competition_team_player_mapping        6,413 rows
+playing_eleven                        28,381 rows
+ball_by_ball                         200,999 rows
+┌────────────┬───────────┬────────────────┐
+│ clean_rows │ max_balls │ min_balls_left │
+│   int64    │   int32   │     int128     │
+├────────────┼───────────┼────────────────┤
+│     200961 │       120 │              1 │
+└────────────┴───────────┴────────────────┘
+

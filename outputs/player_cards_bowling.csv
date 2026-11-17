@@ -1,0 +1,31 @@
+rank,player,date,match,innings,entry_state,last_pressure_ball_state,pressure_balls,runs,wickets,value_runs_above_avg
+1,Jasprit Bumrah,2024-04-11,Mumbai Indians v Royal Challengers Bengaluru,1,89/2 after 10 ov (1st inn),171/8 after 18 ov (1st inn),18,17,4,32.6
+1,Jasprit Bumrah,2026-04-20,Gujarat Titans v Mumbai Indians,2,"200 off 120, 10 wkts left","199 off 115, 9 wkts left",6,1,1,11.6
+1,Jasprit Bumrah,2025-05-30,Gujarat Titans v Mumbai Indians,2,"81 off 42, 8 wkts left","78 off 37, 7 wkts left",6,4,1,11.5
+2,Sunil Narine,2025-05-25,Sunrisers Hyderabad v Kolkata Knight Riders,1,170/1 after 12 ov (1st inn),171/2 after 12 ov (1st inn),6,1,1,14.7
+2,Sunil Narine,2025-04-29,Delhi Capitals v Kolkata Knight Riders,2,"75 off 42, 7 wkts left","67 off 37, 6 wkts left",6,8,2,13.5
+2,Sunil Narine,2023-04-06,Kolkata Knight Riders v Royal Challengers Bengaluru,2,"163 off 96, 10 wkts left","161 off 91, 9 wkts left",6,3,1,12.0
+3,Matheesha Pathirana,2025-05-03,Royal Challengers Bengaluru v Chennai Super Kings,1,154/4 after 17 ov (1st inn),158/5 after 17 ov (1st inn),8,5,1,12.7
+3,Matheesha Pathirana,2023-04-17,Royal Challengers Bengaluru v Chennai Super Kings,2,"35 off 18, 5 wkts left","32 off 13, 4 wkts left",7,4,1,10.9
+3,Matheesha Pathirana,2024-10-13,Sri Lanka v West Indies,2,"18 off 18, 6 wkts left","13 off 13, 5 wkts left",7,5,1,10.6
+4,Rashid Khan,2026-04-08,Delhi Capitals v Gujarat Titans,2,"175 off 96, 10 wkts left","77 off 37, 7 wkts left",18,12,3,35.0
+4,Rashid Khan,2024-03-15,Afghanistan v Ireland,1,66/2 after 10 ov (1st inn),70/4 after 10 ov (1st inn),6,1,2,19.1
+4,Rashid Khan,2024-12-09,Zimbabwe v Afghanistan,2,"28 off 24, 7 wkts left","26 off 19, 5 wkts left",7,3,2,18.2
+5,Mujeeb Ur Rahman,2025-10-03,Afghanistan v Bangladesh,2,"125 off 96, 8 wkts left","123 off 91, 7 wkts left",6,3,1,9.6
+5,Mujeeb Ur Rahman,2025-09-05,Afghanistan v United Arab Emirates,2,"164 off 114, 10 wkts left","56 off 31, 6 wkts left",13,11,1,8.9
+5,Mujeeb Ur Rahman,2025-03-29,Gujarat Titans v Mumbai Indians,1,121/1 after 13 ov (1st inn),130/2 after 13 ov (1st inn),7,9,1,7.6
+6,Varun Chakravarthy,2026-04-19,Kolkata Knight Riders v Rajasthan Royals,1,79/0 after 8 ov (1st inn),81/1 after 8 ov (1st inn),6,1,1,14.4
+6,Varun Chakravarthy,2024-05-11,Kolkata Knight Riders v Mumbai Indians,2,"70 off 54, 7 wkts left","67 off 49, 6 wkts left",7,3,1,11.1
+6,Varun Chakravarthy,2024-05-03,Mumbai Indians v Kolkata Knight Riders,2,"134 off 96, 9 wkts left","132 off 91, 8 wkts left",6,3,1,10.7
+7,Mustafizur Rahman,2024-03-22,Chennai Super Kings v Royal Challengers Bengaluru,1,37/0 after 4 ov (1st inn),41/1 after 4 ov (1st inn),6,4,2,18.9
+7,Mustafizur Rahman,2024-05-10,Bangladesh v Zimbabwe,2,"111 off 90, 7 wkts left","50 off 31, 5 wkts left",12,7,2,17.8
+7,Mustafizur Rahman,2025-05-24,Delhi Capitals v Punjab Kings,1,142/4 after 15 ov (1st inn),145/5 after 15 ov (1st inn),6,4,1,10.7
+8,Blessing Muzarabani,2024-05-12,Bangladesh v Zimbabwe,1,9/0 after 1 ov (1st inn),9/1 after 1 ov (1st inn),6,0,1,12.4
+8,Blessing Muzarabani,2023-12-09,Zimbabwe v Ireland,2,"156 off 114, 10 wkts left","21 off 13, 5 wkts left",18,15,1,10.2
+8,Blessing Muzarabani,2026-04-02,Kolkata Knight Riders v Sunrisers Hyderabad,1,211/6 after 19 ov (1st inn),226/7 after 19 ov (1st inn),7,15,2,7.5
+9,Kuldeep Yadav,2026-05-24,Kolkata Knight Riders v Delhi Capitals,2,"111 off 66, 8 wkts left","75 off 37, 5 wkts left",12,8,3,28.2
+9,Kuldeep Yadav,2022-03-27,Delhi Capitals v Mumbai Indians,1,65/0 after 8 ov (1st inn),84/2 after 10 ov (1st inn),12,10,2,18.0
+9,Kuldeep Yadav,2022-05-16,Punjab Kings v Delhi Capitals,2,"101 off 78, 6 wkts left","99 off 73, 6 wkts left",6,2,1,9.9
+10,Abrar Ahmed,2025-09-17,Pakistan v United Arab Emirates,2,"112 off 96, 9 wkts left","68 off 43, 7 wkts left",12,7,1,10.9
+10,Abrar Ahmed,2025-09-04,Pakistan v United Arab Emirates,2,"144 off 96, 10 wkts left","143 off 91, 10 wkts left",6,2,0,5.1
+10,Abrar Ahmed,2026-01-29,Pakistan v Australia,2,"92 off 66, 6 wkts left","90 off 61, 6 wkts left",6,3,0,1.8
